@@ -273,11 +273,19 @@ div .in {
     line-height: 12px;
     display: flex;
     align-items: center;
-    /* justify-content:  ; */
     padding: 15px;
 
 }
 .item{
     padding: 15px;
 
+}
+
+.heroimg{
+    vartical-align: top;
+    background-image: url("/img/shopimg.png");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    opacity: 0.9;
 }
