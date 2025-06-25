@@ -265,20 +265,28 @@ div .in {
     align-items: center;
     justify-content: center;
 }
-.items {
+#items {
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
-    font-weight:400;
-    font-size: 14px;
+    font-weight:500;
+    font-size: 12px;
     line-height: 12px;
     display: flex;
     align-items: center;
-    padding: 15px;
+    justify-content: space-between;
 
 }
 .item{
-    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+    font-size: 13px;
+    line-height: 12px;
+    padding: 10px;
 
+}
+.item1{
+    padding-left: 16px;
 }
 
 .heroimg{
@@ -286,6 +294,8 @@ div .in {
     background-image: url("/img/shopimg.png");
     background-size: cover;
     height: 500px;
-    width: 100%;
+    width: 1352px;
     opacity: 0.9;
+    margin-left: 2px;
+    margin-right: 2px;
 }
