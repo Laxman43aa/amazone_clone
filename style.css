@@ -299,3 +299,36 @@ div .in {
     margin-left: 2px;
     margin-right: 2px;
 }
+
+/* .cardsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+} */
+.card{
+    height: 400px;
+    background-color: #fff;
+    width: 400px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+.card h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(15,17,17) ;
+    font-size: 21px;
+    line-height: 27px;
+
+}
+.card-1imgsec{
+    display: grid;
+    grid-template-columns: 175px 175px;
+    gap: 20px;
+    align-items: center;
+    
+    
+}
